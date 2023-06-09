@@ -30,7 +30,7 @@ Follow these steps to set up and run the Scraper application locally:
 The application will be accessible at http://localhost:3000.
 ## Deployment
 
-The Scraper application is deployed and can be accessed using the following link: [Preview Scraper]([https://scraaper.netlify.app/])
+The Scraper application is deployed and can be accessed using the following link: [Preview Scraper](https://scraaper.netlify.app/)
 
 ## Usage
 
