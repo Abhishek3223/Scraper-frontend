@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Scraper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Scraper is a React-based web application that provides price tracking and reminder functionalities.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Price Tracking:** Keep track of prices for products on various websites.
+- **Reminders:** Set reminders for specific price thresholds or events.
+- **User-Friendly Interface:** Intuitive and easy-to-use interface for a seamless experience.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these steps to set up and run the Scraper application locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone <repository-url>
+2. Navigate to the project directory: 
+   ```bash
+   cd scraper
+3. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm start
+   
+The application will be accessible at http://localhost:3000.
+## Usage
 
-### `npm run build`
+Once the application is running, you can access it through your web browser. The home page will provide an overview of the available features and options. Here's a brief explanation of how to use the main functionalities:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Price Tracking:**
+  - Enter the URL of a product page to track its price.
+  - The app will periodically check the price and display any changes.
+  - You can customize settings for each tracked product, such as notifications or price thresholds.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Reminders:**
+  - Set reminders for specific price thresholds or other events.
+  - Choose the desired product and specify the conditions for the reminder.
+  - Receive notifications when the conditions are met.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! If you'd like to contribute to the Scraper project, please follow these guidelines:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch for your feature/bug fix.
+3. Make your changes and test thoroughly.
+4. Commit your changes with descriptive commit messages.
+5. Push your branch to your forked repository.
+6. Open a pull request, providing a clear description of your changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the [MIT License](LICENSE).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgments
 
-## Learn More
+- The Scraper application was built using React and various open-source libraries.
+- Special thanks to the contributors and maintainers of those libraries.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
